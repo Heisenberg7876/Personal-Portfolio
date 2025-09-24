@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abhijeet Kulkarni - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span>Abhijeet's Portfolio</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link" aria-label="Go to Home section">Home</a></li>
+                <li><a href="#about" class="nav-link" aria-label="Go to About section">About</a></li>
+                <li><a href="#skills" class="nav-link" aria-label="Go to Skills section">Skills</a></li>
+                <li><a href="#projects" class="nav-link" aria-label="Go to Projects section">Projects</a></li>
+                <li><a href="#experience" class="nav-link" aria-label="Go to Experience section">Experience</a></li>
+                <li><a href="#certificates" class="nav-link" aria-label="Go to Certificates section">Certificates</a>
+                </li>
+                <li><a href="#contact" class="nav-link" aria-label="Go to Contact section">Contact</a></li>
+            </ul>
+            <div class="hamburger" aria-label="Toggle navigation menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">Abhijeet <span class="accent">Kulkarni</span></h1>
+            <p class="hero-subtitle"
+                data-typewriter="Final-year CS Student | Web Development Intern | Exploring AI & Data Science"></p>
+            <p class="hero-description">"I build clean, responsive, and user-focused web applications while expanding my
+                expertise in AI and Data Science. Always eager to learn, collaborate, and contribute to impactful
+                projects."</p>
+            <div class="hero-buttons">
+                <a href="#projects" class="btn btn-primary" aria-label="View my projects">View My Work</a>
+                <a href="#contact" class="btn btn-secondary" aria-label="Contact me">Get In Touch</a>
+                <a href="Abhijeet's Resume.pdf" class="btn btn-secondary resume-download" download
+                    aria-label="Download my resume">Download Resume</a>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <i class="fas fa-chevron-down"></i>
+        </div>
+    </section>
+    <hr class="section-divider">
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title text-gradient">About Me</h2>
+                <p class="section-description">A glimpse into my journey and passions</p>
+            </div>
+            <div class="about-grid">
+                <div class="about-image">
+                    <div class="profile-image-container">
+                        <img src="image.jpg" alt="Abhijeet Kulkarni" class="profile-image">
+                        <div class="profile-overlay"></div>
+                    </div>
+                </div>
+                <div class="about-content">
+                    <div class="about-card">
+                        <p class="about-text">I'm a final-year B.Sc. Computer Science student at MJ College and
+                            currently working as a Web Development Intern. Passionate about AI, Data Science, and Web
+                            Development, I have strong skills in Python, JavaScript, HTML, CSS, and frontend
+                            development.</p>
+                        <p class="about-text">I've built hands-on projects, including a Spotify-inspired music streaming
+                            website, and I'm continuously exploring new technologies to solve real-world problems.</p>
+                        <blockquote class="about-quote">"Looking forward to internships, collaborations, and new
+                            challenges that let me learn and build together."</blockquote>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <hr class="section-divider">
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title text-gradient">Skills & Technologies</h2>
+                <p class="section-description">My technical expertise and tools I use to build impactful solutions</p>
+            </div>
+            <div class="skills-grid">
+                <div class="skill-card" data-category="frontend">
+                    <i class="fab fa-html5 skill-icon"></i>
+                    <h3 class="skill-title">HTML / CSS</h3>
+                    <p class="skill-description">Building responsive, accessible web interfaces</p>
+                </div>
+                <div class="skill-card" data-category="frontend">
+                    <i class="fab fa-js skill-icon"></i>
+                    <h3 class="skill-title">JavaScript</h3>
+                    <p class="skill-description">Dynamic and interactive web functionalities</p>
+                </div>
+                <div class="skill-card" data-category="backend">
+                    <i class="fas fa-code skill-icon"></i>
+                    <h3 class="skill-title">C / C++</h3>
+                    <p class="skill-description">System-level programming and algorithms</p>
+                </div>
+                <div class="skill-card" data-category="backend">
+                    <i class="fab fa-python skill-icon"></i>
+                    <h3 class="skill-title">Python</h3>
+                    <p class="skill-description">Versatile scripting and application development</p>
+                </div>
+
+                <div class="skill-card" data-category="tools">
+                    <i class="fab fa-github skill-icon"></i>
+                    <h3 class="skill-title">GitHub</h3>
+                    <p class="skill-description">Code hosting and project management</p>
+                </div>
+                <div class="skill-card" data-category="data">
+                    <i class="fas fa-table skill-icon"></i>
+                    <h3 class="skill-title">Pandas</h3>
+                    <p class="skill-description">Data manipulation and analysis</p>
+                </div>
+                
+                <div class="skill-card" data-category="backend">
+                    <i class="fas fa-database skill-icon"></i>
+                    <h3 class="skill-title">SQL</h3>
+                    <p class="skill-description">Database management and querying</p>
+                </div>
+                <div class="skill-card" data-category="backend">
+                    <i class="fab fa-java skill-icon"></i>
+                    <h3 class="skill-title">Java</h3>
+                    <p class="skill-description">Versatile language for backend development and applications</p>
+                </div>
+                <div class="skill-card" data-category="backend">
+                    <i class="fab fa-php skill-icon"></i>
+                    <h3 class="skill-title">PHP</h3>
+                    <p class="skill-description">Server-side scripting for web apps</p>
+                </div>
+
+           
+
+        </div>
+    </section>
+    <hr class="section-divider">
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title text-gradient">Featured Projects</h2>
+                <p class="section-description">Showcasing my skills through hands-on projects</p>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card" data-technologies="html-css,javascript,sql,php">
+                    <div class="project-image">
+                        <img src="ExaminationManagementSystem.png" alt="Examination Management System">
+                        <div class="project-overlay">
+                            <a href="https://github.com/Heisenberg7876/examination-management-system"
+                                class="project-link" target="_blank" rel="noopener noreferrer"
+                                aria-label="View Examination Management System on GitHub">
+                                <i class="fas fa-external-link-alt"></i>
+                                View Project
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Examination Management System</h3>
+                        <p class="project-description">A web-based platform to manage paper setter details and admin
+                            tasks. Built with HTML, CSS, JavaScript, and SQL for secure database integration.</p>
+                        <div class="project-tech">
+                            <span class="skill-tag"><i class="fab fa-html5"></i> HTML / CSS</span>
+                            <span class="skill-tag"><i class="fab fa-js"></i> JavaScript</span>
+                            <span class="skill-tag"><i class="fas fa-database"></i> SQL</span>
+                            <span class="skill-tag"><i class="fab fa-php"></i> PHP</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card" data-technologies="html-css,javascript">
+                    <div class="project-image">
+                        <img src="SpotifyClone.png" alt="Spotify Clone">
+                        <div class="project-overlay">
+                            <a href="https://github.com/Heisenberg7876/spotify-clone" class="project-link"
+                                target="_blank" rel="noopener noreferrer" aria-label="View Spotify Clone on GitHub">
+                                <i class="fas fa-external-link-alt"></i>
+                                View Project
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Spotify Clone</h3>
+                        <p class="project-description">A responsive, interactive music streaming platform inspired by
+                            Spotify. Allows users to play, pause, skip, and control songs with a custom player UI.</p>
+                        <div class="project-tech">
+                            <span class="skill-tag"><i class="fab fa-html5"></i> HTML / CSS</span>
+                            <span class="skill-tag"><i class="fab fa-js"></i> JavaScript</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card" data-technologies="html-css,javascript">
+                    <div class="project-image">
+                        <img src="githubserfinder.png" alt="GitHub User Finder">
+                        <div class="project-overlay">
+                            <a href="https://github.com/Heisenberg7876/github-user-finder" class="project-link"
+                                target="_blank" rel="noopener noreferrer"
+                                aria-label="View GitHub User Finder on GitHub">
+                                <i class="fas fa-external-link-alt"></i>
+                                View Project
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">GitHub User Finder</h3>
+                        <p class="project-description">A responsive web app that displays GitHub user profiles and
+                            repositories with filtering, stats chart, and modal details.</p>
+                        <div class="project-tech">
+                            <span class="skill-tag"><i class="fab fa-html5"></i> HTML / CSS</span>
+                            <span class="skill-tag"><i class="fab fa-js"></i> JavaScript</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <hr class="section-divider">
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title text-gradient">Experience</h2>
+                <p class="section-description">My professional journey and key milestones</p>
+            </div>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3 class="timeline-title">Web Development Intern</h3>
+                        <p class="timeline-company">Moolji Jaitha College, Jalgaon • 2025 - Present</p>
+                        <p class="timeline-description">Built an Examination Management System using HTML, CSS, and
+                            JavaScript. Designed a responsive interface with a professional navigation bar.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <hr class="section-divider">
+
+    <!-- Certificates Section -->
+    <section id="certificates" class="certificates">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title text-gradient">Certificates</h2>
+                <p class="section-description">My achievements and certifications</p>
+            </div>
+            <div class="certificates-grid">
+                <div class="certificate-card">
+                    <img src="certificate1.png" alt="Build a computer vision app with Azure Cognitive Services">
+                    <h3>Build a Computer Vision App with Azure Cognitive Services</h3>
+                    <p>Issued by: Coursera</p>
+                </div>
+                <div class="certificate-card">
+                    <img src="certificate2.jpg" alt="Amazon S3 Basics">
+                    <h3>Amazon S3 Basics</h3>
+                    <p>Issued by: Coursera</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <hr class="section-divider">
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title text-gradient">Get In Touch</h2>
+                <p class="section-description">Let's discuss your next project or just say hello</p>
+            </div>
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <h3 class="contact-title">Let's Connect</h3>
+                    <p class="contact-text">I'm always interested in hearing about new opportunities and exciting
+                        projects. Whether you have a question or just want to say hi, feel free to reach out!</p>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <span>kulkarniabhijeet913@gmail.com</span>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://github.com/Heisenberg7876" class="social-link" target="_blank"
+                            rel="noopener noreferrer" aria-label="Visit my GitHub profile">
+                            <i class="fab fa-github"></i>
+                            GitHub
+                        </a>
+                        <a href="https://www.linkedin.com/in/abhijeet-kulkarni-7b7269289" class="social-link"
+                            target="_blank" rel="noopener noreferrer" aria-label="Visit my LinkedIn profile">
+                            <i class="fab fa-linkedin"></i>
+                            LinkedIn
+                        </a>
+                    </div>
+                </div>
+                <div class="contact-form-container">
+                    <form class="contact-form" id="contactForm" aria-live="polite">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" placeholder="Your Name" required
+                                aria-label="Your name">
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" placeholder="Your Email" required
+                                aria-label="Your email address">
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" name="message" placeholder="Your Message" rows="5" required
+                                aria-label="Your message"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-full" aria-label="Send message">Send
+                            Message</button>
+                        <p class="form-message" id="formMessage" role="status"></p>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <hr class="section-divider">
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p class="footer-text">&copy; 2025 Abhijeet Kulkarni. All rights reserved.</p>
+                <div class="footer-social">
+                    <a href="https://github.com/Heisenberg7876" target="_blank" rel="noopener noreferrer"
+                        aria-label="GitHub">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/abhijeet-kulkarni-7b7269289" target="_blank"
+                        rel="noopener noreferrer" aria-label="LinkedIn">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="mailto:kulkarniabhijeet913@gmail.com" aria-label="Email">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Back to Top Button -->
+    <button class="back-to-top" aria-label="Back to top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
